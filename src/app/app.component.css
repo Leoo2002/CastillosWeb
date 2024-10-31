@@ -1,0 +1,14 @@
+.toper {
+    background-image: url('/img/globos-fondo-rosa.jpg');
+    background-size: cover;
+    background-position: 40% 38%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.titulo{
+    text-shadow: 0 4px rgb(150, 146, 146);
+}
