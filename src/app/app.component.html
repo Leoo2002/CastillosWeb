@@ -4,32 +4,31 @@
 <!-- PRESENTACION -->
 <br><br>
 
-<div class="row">
-    <div class="col-5 col-md-4 col-lg-4 mb-4">
-      <img src="/img/logo.png" alt="" class="logo">
-    </div>
-    <div class="col-5 col-md-6 col-lg-6 mb-6 d-flex align-items-center text-start text-light">
-      <div>
-        <h5>Realizamos alquileres de Castillo inflables y combos de fiesta en Villa Dolores (Córdoba) y alrededores</h5>
-        <p>Nuestra Información:</p>
+<div class="container">
+    <div class="row align-items-center text-light">
+      <div class="col-12 col-md-4 text-center mb-3">
+        <img src="/img/logo.png" alt="Logo" class="logo">
+      </div>
+      <div class="col-12 col-md-8 text-start">
+        <h5 class="mb-2">Realizamos alquileres de Castillo inflables y combos de fiesta en Villa Dolores (Córdoba) y alrededores!</h5>
+        <p class="mb-2">Nuestra Información:</p>
         <ul class="list-unstyled">
-          <li><i class="bi bi-whatsapp"></i> 3544-585058</li>
-          <li><i class="bi bi-facebook"></i> Carolina Noelia Pacheco</li>
-          <li><i class="bi bi-house-door-fill"></i> Villa Dolores - Córdoba</li>
+          <li><i class="bi bi-whatsapp me-2"></i> 3544-585058</li>
+          <li><i class="bi bi-facebook me-2"></i> Carolina Noelia Pacheco</li>
+          <li><i class="bi bi-house-door-fill me-2"></i> Villa Dolores - Córdoba</li>
         </ul>
       </div>
     </div>
   </div>
   
-  
-
+<br>
 
 <!-- INICIO DE SUBTITULOS CON PRODUCTOS -->
 <h3 class="subtitulos text-light mt-0">Castillos:</h3>
 
 <div class="container">
   <div class="row justify-content-center">
-    <div class="col-10 col-md-6 col-lg-3 mb-4" *ngFor="let producto of productos">
+    <div class="col-10 col-md-6 col-lg-4 mb-4" *ngFor="let producto of productos">
       <app-inicio-web [productito]="producto"></app-inicio-web>
     </div>
   </div>

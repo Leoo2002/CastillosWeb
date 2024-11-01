@@ -9,6 +9,17 @@
     border-bottom: 2px solid #ccc;
 }
 
+.logo {
+    display: flex;
+    height: 150px;
+    width: auto;
+    border-radius: 5%;
+    box-shadow: 0 0 25px 15px #a45785;
+    /* Usar márgenes responsivos para evitar desbordamiento en pantallas pequeñas */
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .titulo{
     text-shadow: 0 4px rgb(150, 146, 146);
 }
@@ -23,13 +34,9 @@
     padding: 5px;
 }
 
-.logo{
-    display: flex;
-    height: 175px;
-    width: auto;
-    border-radius: 5%;
-    box-shadow: 0 0 25px 15px #a45785;
-    margin: 2rem;
+.bi {
+    color: #a45785; /* Color para los íconos */
+    text-shadow: 0 5px 5px #85586c;
 }
 
 /* Efecto de brillo dorado y máquina de escribir */
@@ -66,13 +73,9 @@
     100% { background-position: 200%; }
 }
 
-
-
-
-
 .footer{
     text-align: center;
-    width: 110%;
-    overflow-x: hidden; /* Esto debería ayudar a evitar el desbordamiento horizontal */
+    width: 100%;
     background-color: #85586c;
+    overflow-x: hidden; /* Esto debería ayudar a evitar el desbordamiento horizontal */
 }
