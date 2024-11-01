@@ -10,8 +10,7 @@ export class CastilloService{
         new Producto(["/img/chico/castillochico.jpeg","/img/castillochico2.jpeg","/img/castillochico3.jpeg"],"Castillo Chico","dimenciones"),
         new Producto(["/img/acuatico/acuatico.jpeg"],"Castillo Acuatico","dimenciones"),
         new Producto(["/img/conejo/conejo.jpeg",],"Castillo Bugs Bunny","dimenciones"),
-        new Producto(["/img/lorenzo/lorenzo3.jpeg",],"Castillo Cachorrito","dimenciones"),
-        new Producto(["/img/lapiz/lapiz.jpeg",],"Castillo Lapiz","dimenciones")
+        new Producto(["/img/lorenzo/lorenzo3.jpeg",],"Castillo Cachorrito","dimenciones")
     ];
     combos:Producto[]=[
       new Producto(["/img/atril/atriles2.jpeg"],"Atriles Para Pintar","dimenciones"),
