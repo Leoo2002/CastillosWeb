@@ -1,11 +1,54 @@
 <div class="toper encabezado py-4 d-flex align-items-center justify-content-center">
     <h1 class="text-center p-0 m-0 flex-grow-1 titulo">¡Sonrisas en el Aire!</h1>
 </div>
+<!-- PRESENTACION -->
+<br><br>
 
-<div class="fondo">
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="row">
+    <div class="col-5 col-md-4 col-lg-4 mb-4">
+      <img src="/img/logo.png" alt="" class="logo">
+    </div>
+    <div class="col-5 col-md-6 col-lg-6 mb-6 d-flex align-items-center text-start text-light">
+      <div>
+        <h5>Realizamos alquileres de Castillo inflables y combos de fiesta en Villa Dolores (Córdoba) y alrededores</h5>
+        <p>Nuestra Información:</p>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-whatsapp"></i> 3544-585058</li>
+          <li><i class="bi bi-facebook"></i> Carolina Noelia Pacheco</li>
+          <li><i class="bi bi-house-door-fill"></i> Villa Dolores - Córdoba</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+<!-- INICIO DE SUBTITULOS CON PRODUCTOS -->
+<h3 class="subtitulos text-light mt-0">Castillos:</h3>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-10 col-md-6 col-lg-3 mb-4" *ngFor="let producto of productos">
+      <app-inicio-web [productito]="producto"></app-inicio-web>
+    </div>
+  </div>
 </div>
 
-<footer>
+<h3 class="subtitulos text-light">Combos:</h3>
 
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-10 col-md-6 col-lg-3 mb-4" *ngFor="let extra of extras">
+        <app-inicio-web [productito]="extra"></app-inicio-web>
+      </div>
+    </div>
+</div>
+
+
+<footer class="text-light footer">
+    <div class="container p-3 mt-2">
+        <p class="text-center"> <b>¡Sonrisas en el Aire!</b> </p>
+        <p class="autor text-center">Programador: Quiroga Pacheco Leonel.</p>
+    </div>
 </footer>

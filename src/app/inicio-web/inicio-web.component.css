@@ -1,0 +1,38 @@
+.card {
+    width: 17rem;
+    height: 350px; /* Altura fija para mantener uniformidad entre tarjetas */
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    background: #a45785;
+    box-shadow: 2px 4px #6d3958;
+}
+
+.card-body {
+    padding: 0.8rem;
+    border-top: 2px solid #6d3958;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.imagen-card {
+    width: 100%;
+    height: 250px; /* Altura fija para asegurar uniformidad */
+    object-fit: cover; /* Ajusta la imagen sin distorsionar */
+    object-position: center;
+    border-radius: 15%;
+    margin-top: 2%;
+    padding: 3%;
+}
+
+.boton-card {
+    background-color: #a1c0a1;
+    padding: 0.3rem;
+    border-radius: 15%;
+}
