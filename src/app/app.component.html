@@ -1,26 +1,27 @@
 <div class="toper encabezado py-4 d-flex align-items-center justify-content-center">
-    <h1 class="text-center p-0 m-0 flex-grow-1 titulo">¡Sonrisas en el Aire!</h1>
+  <h1 class="text-center p-0 m-0 flex-grow-1 titulo">¡Sonrisas en el Aire!</h1>
 </div>
 <!-- PRESENTACION -->
 <br><br>
 
 <div class="container">
-    <div class="row align-items-center text-light">
-      <div class="col-12 col-md-4 text-center mb-3">
-        <img src="/img/logo.png" alt="Logo" class="logo">
-      </div>
-      <div class="col-12 col-md-8 text-start">
-        <h5 class="mb-2">Realizamos alquileres de Castillo inflables y combos de fiesta en Villa Dolores (Córdoba) y alrededores!</h5>
-        <p class="mb-2">Nuestra Información:</p>
-        <ul class="list-unstyled">
-          <li><i class="bi bi-whatsapp me-2"></i> 3544-585058</li>
-          <li><i class="bi bi-facebook me-2"></i> Carolina Noelia Pacheco</li>
-          <li><i class="bi bi-house-door-fill me-2"></i> Villa Dolores - Córdoba</li>
-        </ul>
-      </div>
+  <div class="row align-items-center text-light">
+    <div class="col-12 col-md-4 text-center mb-3">
+      <img src="/img/logo.png" alt="Logo" class="logo">
+    </div>
+    <div class="col-12 col-md-8 text-start">
+      <h5 class="mb-2">Realizamos alquileres de Castillo inflables y combos de fiesta en Villa Dolores (Córdoba) y
+        alrededores!</h5>
+      <p class="mb-2">Nuestra Información:</p>
+      <ul class="list-unstyled">
+        <li><i class="bi bi-whatsapp me-2"></i> 3544-585058</li>
+        <li><i class="bi bi-facebook me-2"></i> Carolina Noelia Pacheco</li>
+        <li><i class="bi bi-house-door-fill me-2"></i> Villa Dolores - Córdoba</li>
+      </ul>
     </div>
   </div>
-  
+</div>
+
 <br>
 
 <!-- INICIO DE SUBTITULOS CON PRODUCTOS -->
@@ -37,17 +38,17 @@
 <h3 class="subtitulos text-light">Combos:</h3>
 
 <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-10 col-md-6 col-lg-3 mb-4" *ngFor="let extra of extras">
-        <app-inicio-web [productito]="extra"></app-inicio-web>
-      </div>
+  <div class="row justify-content-center">
+    <div class="col-10 col-md-6 col-lg-3 mb-4" *ngFor="let extra of extras">
+      <app-inicio-web [productito]="extra"></app-inicio-web>
     </div>
+  </div>
 </div>
 
 
 <footer class="text-light footer">
-    <div class="container p-3 mt-2">
-        <p class="text-center"> <b>¡Sonrisas en el Aire!</b> </p>
-        <p class="autor text-center">Programador: Quiroga Pacheco Leonel.</p>
-    </div>
+  <div class="container p-3 mt-2">
+    <p class="text-center"> <b>¡Sonrisas en el Aire!</b> </p>
+    <p class="autor text-center">Programador: Quiroga Pacheco Leonel.</p>
+  </div>
 </footer>
